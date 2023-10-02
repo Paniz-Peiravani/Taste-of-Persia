@@ -1,0 +1,112 @@
+<!-- HTML5 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <!-- favicon for logo on the left top of the page -->
+  <link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+
+  <!-- Navigation Links -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <!-- header -->
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="Tase of Peersia">
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <!-- links-->
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="about.html" class="nav-link"> about </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+        <a href="recipes.html" class="nav-link"> recipes </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End of Navigation Links-->
+
+  <!--Main Page-->
+  <main class="page">
+    <section class="about-page">
+      <article>
+        <h2> Salam!</h2>
+        <p> I am a senior college student, and this is my first webpage. Enjoy learning how to cook some delicious
+          Persian food. </p>
+        <p>PS. Have you tried Tah Chin with Salad Shirazi before? In Shiraz, people always eat Tah Chin with Salad
+          Shirazi. Give it a shot.
+          You can see the recipes below.</p>
+        <p>PSS. Nooshe jan!</p>
+        <a href="contact.html" class="btn"> Contact</a>
+      </article>
+      <img src="./assets/kitchen.jpg" alt="old kitchen" class="img about-img">
+
+    </section>
+
+    <section class="featured-recipes">
+      <h5 class="feature-title"> Look At this Awesome combinations! </h5>
+      <!-- Recipes List -->
+      <div class="recipes-list">
+
+        <!-- Single Recipe / Salad Shirazi -->
+        <a href="single-recipe.html" class="recipe">
+          <img src="./assets/recipes/saladShirazi.jpg" class="img recipe-img" alt="" />
+          <h5> Cucumber Tomato Salad - </h5>
+          <h5>Shirazi Salad </h5>
+          <h8> سالاد شیرازی</h8>
+          <p> Prep: 10min </p>
+        </a>
+        <!-- End of Single Recipe / Salad Shirazi -->
+
+        <!-- Single Recipe / Tahchin -->
+        <a href="single-recipe.html" class="recipe">
+          <img src="./assets/recipes/tahchin.webp" class="img recipe-img" alt="" />
+          <h5> Rice Cake - </h5>
+          <h5> Tah Chin Morgh</h5>
+          <h8> ته چین مرغ</h8>
+          <p> Prep: 20min | Cook: 1hr </p>
+        </a>
+        <!-- End of Single Recipe / Tahchin -->
+
+      </div>
+      <!-- end of recipes list -->
+    </section>
+
+  </main>
+  <!--End of Main Page-->
+
+  <!-- footer -->
+  <footer class="page-footer">
+    <p> &copy;
+      <span id="date"></span>
+      <span class="footer-logo"> Taste of Persia </span>
+      by <a href="http://github.com/Paniz-Peiravani"> Paniz Peiravani </a>
+    </p>
+
+
+  </footer>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

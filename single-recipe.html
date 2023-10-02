@@ -1,0 +1,176 @@
+<!-- HTML5 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Recipe</title>
+  <!-- favicon for logo on the left top of the page -->
+  <link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+
+  <!-- Navigation Links -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <!-- header -->
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="Tase of Peersia">
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <!-- links-->
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="about.html" class="nav-link"> about </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+        <a href="recipes.html" class="nav-link"> recipes </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End of Navigation Links-->
+
+  <!--Main Page-->
+
+  <main class="page">
+
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="./assets/recipes/Omelet.JPG" class="img recipe-hero-img" alt="Omelet" />
+        <article>
+          <h5> Tomato Omelet - املت گوجه فرنگی </h5>
+          <p> This omelette is a simple recipe with a multitude of flavours. You can have it anytime you feel hungry. </p>
+       
+        <!-- Recipe Icon-->
+        <div class="recipe-icons">
+
+          <!-- Single Recipe Icon-->
+          <article>
+            <i class="fas fa-clock"></i>
+            <h5> Prep Time </h5>
+            <p> 10min</p>
+          </article>
+
+          <article>
+            <i class="far fa-clock"></i>
+            <h5> Cook Time </h5>
+            <p> 20min</p>
+          </article>
+
+          <article>
+            <i class="fas fa-user-friends"></i>
+            <h5> Servings </h5>
+            <p> 2 Servings </p>
+          </article>
+        </div>
+
+        <!-- Recipe tags-->
+        <div class="recipe-tags">
+          Tags: <a href="tag-template.html"> Breakfast </a>
+          <a href="tag-template.html"> Vegetarian </a>
+        </div>
+
+        </article>
+      </section>
+
+      <!-- Recipe Content-->
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 1</p>
+              <div></div>
+            </header>
+            <p>
+              Dice finely or grate tomatoes, saute on medium heat until almost all of the juice evaporates. Add the tomato paste and vegetable oil/butter and fry for 1-2 min.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 2</p>
+              <div></div>
+            </header>
+            <p>
+              Crack the eggs and mix it with tomatoes on low heat and try to achieve a balanced, reddish color. Taste it, and then add the salt, pepper, and cinnamon, based on your taste.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 3</p>
+              <div></div>
+            </header>
+            <p>
+              Slice the onion and make crispy, fried onion. You can saute, microwave, roast in the oven, or even use a pot full of boiling water and use its lid to make it oil-free.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 4</p>
+              <div></div>
+            </header>
+            <p>
+              Put a generous amount of crispy fried onions on your omelet and serve it alongside flatbread, veggies (basils, garden radish, pickles, and raw onions).
+            </p>
+          </div>
+          <!-- end of single instruction -->
+        </article>
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+            <p class="single-ingredient">4 eggs</p>
+            <p class="single-ingredient">6 medium tomatoes</p>
+            <p class="single-ingredient">1 tbsp tomato paste</p>
+            <p class="single-ingredient">2 tbsp vegetable oil or 100 g butter</p>
+            <p class="single-ingredient">1 medium onion</p>
+            <p class="single-ingredient"> Salt and black pepper</p>
+          </div>
+          <div>
+            <h4>tools</h4>
+            <p class="single-tool">NonStick pan</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <!--End of Main Page-->
+
+  <!-- footer -->
+  <footer class="page-footer">
+    <p> &copy;
+      <span id="date"></span>
+      <span class="footer-logo"> Taste of Persia </span>
+      by <a href="http://github.com/Paniz-Peiravani"> Paniz Peiravani </a>
+    </p>
+
+
+  </footer>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
